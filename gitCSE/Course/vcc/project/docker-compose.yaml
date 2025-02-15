@@ -1,0 +1,23 @@
+# Our problems. You can easily test these by running:
+# `docker-compose build && docker-compose up -d`
+
+# Web Challengs
+
+challenge1:
+  build: ./challenge1/challenge
+  ports:
+    - 8002:80
+
+# Pwn problems
+challenge2:
+  build: ./challenge2/challenge
+  ports:
+    - 9000:8890
+
+# Crypto Challenges
+challenge3:
+  build: ./challenge3/challenge
+  ports:
+    - 8004:80
+
+# Misc Challenges
